@@ -1,6 +1,12 @@
 # Sinatra MVC Lab - Pig Latinizer
 
-In this lab, you'll be building a **Pig Latinizer** using Sinatra and the MVC paradigm of app development. Pig Latin is a made-up language formed from English by transferring the initial consonant or consonant cluster of each word to the end of the word and adding a vocalic syllable. For example, noodle soup would be translated to oodlenay oupsay. 
+In this lab, you'll be building a **Pig Latinizer** using Sinatra and the MVC paradigm of app development. Pig Latin is a made-up language formed from English by transferring the initial consonant or consonant blend (for example, "ch" or "str") of each word to the end of the word along with the syllable "-ay". If the word begins with a vowel sound, then we add the sound of "way" to the end of the word.
+
+Examples:
+
+"noodle soup" becomes "oodlenay oupsay"
+"flatiron school" becomes "atironflay oolschay"
+"big apple" becomes "igbay appleway" (note the added "w" in "appleway")
 
 Your app will take in a string from a user through a form, convert it to pig latin, and return the string to the user. Using the previous code-along as a guide, get the tests to pass by building out this application. Use the guide below to get you started!
 
